@@ -394,19 +394,26 @@ margin-top: %;
 #footer>img{
     width: 10%;
 }
-.deta{
-    width: 40%;
+#divfoot1{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    align-items: center;
 }
 #detasub{
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 300px;
+    justify-content: space-between;
+    width: 15vw;
 }
-    
-.deta2{
+#detasub2{
     display: flex;
-    flex-direction: row;
-    width: 500px;
-    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    margin-left: 22%;
+    margin-top: 4%;
+}
+#detasub2>p{
+    width: 10%;
 }
